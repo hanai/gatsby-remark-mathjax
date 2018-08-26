@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-remark-mathjax",
+  "description": "Transform math nodes to html markup for MathJax",
+  "version": "1.0.0",
+  "author": "Hanai <ihanai1991@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/hanai/gatsby-remark-mathjax/issues"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "remark-math": "^1.0.3",
+    "unist-util-visit": "^1.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5"
+  },
+  "homepage": "https://github.com/hanai/gatsby-remark-mathjax#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "mathjax",
+    "remark"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/hanai/gatsby-remark-mathjax",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  }
+}
