@@ -22,7 +22,11 @@ plugins: [
 ],
 ```
 
-**Add MathJax to your template:** MathJax is required to render the formulas correctly.
+**Add MathJax to your template:** MathJax is required to render the formulas correctly. [MathJax: Getting Started](http://docs.mathjax.org/en/latest/start.html)
+
+``` html
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+```
 
 ### Math Equations in Inline Mode
 
