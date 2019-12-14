@@ -1,5 +1,11 @@
 # gatsby-remark-mathjax
 
+## :pushpin: Notice
+
+This plugin is **not** for Mathjax Server-Side render or inject js/css. It is used for keeping Latex snippets as raw when `gatsby-transformer-remark` convert markdown to html.
+
+## Introduction
+
 [gatsby-remark-mathjax][1] adds mathjax support to gatsby using [remark-math][2].
 
 ## Install
